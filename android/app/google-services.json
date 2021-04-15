@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204132142324",
+    "project_id": "login-83140",
+    "storage_bucket": "login-83140.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204132142324:android:f19733183d97a50c91a2a1",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204132142324-ba398palgrrt2k9p6r0b6ed843u4agpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH2vd0lw_PQfE3fht10QLlUW7VVztlVO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204132142324-ba398palgrrt2k9p6r0b6ed843u4agpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

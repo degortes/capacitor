@@ -12,6 +12,18 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-grid>
+    
+    <form id="braintree-form" class="braintree-form" action="/localhost:8000/api/airport-store" method="POST">
+  
+      <div id="dropin-container"></div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <button *ngIf="brainsubmitbtn" id="submit-button" class="btn btn-primary btn-lg btn-block" type="submit">Paga ora</button>
+      <input type="hidden" id="nonce" name="nonce" value="{{nonce}}"/>
+      <input type="hidden" name="price" value="10">
+  
+    </form>
+  </ion-grid>
+
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>

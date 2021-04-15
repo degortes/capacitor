@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tab4</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container" style="margin-top:10%;margin-bottom:10%">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="">
+                <p>You will be charged rs 100</p>
+            </div>
+            <div class="card">
+                <form action="/"  method="get" id="payment-form">
+                    <div class="form-group">
+                        <div class="card-header">
+                            <label for="card-element">
+                                Enter your credit card information
+                            </label>
+                        </div>
+                        <div class="card-body">
+                            <div id="card-element">
+                            <!-- A Stripe Element will be inserted here. -->
+                            </div>
+                            <!-- Used to display form errors. -->
+                            <div id="card-errors" role="alert"></div>
+                            <input type="hidden" name="plan" value="" />
+                        </div>
+                    </div>
+                    <div id="card-foot">
+                 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</ion-content>

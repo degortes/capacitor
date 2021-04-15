@@ -5,6 +5,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab2Page } from './tab2.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import { GooglePayButtonModule } from "@google-pay/button-angular"
+
 
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 
@@ -14,7 +16,8 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    Tab2PageRoutingModule,
+    GooglePayButtonModule
   ],
   declarations: [Tab2Page]
 })
